@@ -99,7 +99,7 @@ a:visited {
 }
 
 .research__work{
-    background-color: yellowgreen;
+    
     display: flex;
     justify-content: space-around;
     margin-bottom: 1rem;
@@ -114,6 +114,8 @@ a:visited {
 
 .gif{
     padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .research__text{
@@ -129,6 +131,14 @@ a:visited {
     margin-bottom: 2rem;
 }
 
+.research__img{
+    width: 10rem;
+    transition: transform .5s ease;
+}
+
+.research__img:hover{
+    transform: scale(2.5);
+}
 
 .logos{
     display: flex;
