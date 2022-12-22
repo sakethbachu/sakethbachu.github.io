@@ -132,12 +132,12 @@ a:visited {
 }
 
 .research__img{
-    width: 10rem;
+    width: 90%;
     transition: transform .5s ease;
 }
 
 .research__img:hover{
-    transform: scale(2.5);
+    transform: scale(1.1);
 }
 
 .logos{
