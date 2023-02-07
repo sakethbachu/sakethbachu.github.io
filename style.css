@@ -101,7 +101,7 @@ a:visited {
 .research__work{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 1rem;
 }
 
