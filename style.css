@@ -74,11 +74,6 @@ a:visited {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid black;
     position: sticky;
-    top: 0;
-    background-color: white; /* Set the background color to match your layout */
-    z-index: 1; /* Ensure the heading is above the scrolling content */
-
-    
 }
 
 .title:hover{
