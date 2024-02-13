@@ -188,23 +188,6 @@
             
         </div>
     </div>
-    <script>
-        function updates() {
-          var container = document.getElementById('workexID');
-          var childElements = container.children;
-          var newsCount = childElements.length;
-    
-          // Scroll the container automatically for the first 5 news
-          var i = 0;
-          var intervalId = setInterval(function() {
-            container.scrollTop += childElements[i].offsetHeight;
-            i++;
-            if (i >= 5 || i >= newsCount) {
-              clearInterval(intervalId);
-            }
-          }, 2000); // Adjust the interval time as needed
-        }
-  </script>
 
     <div class="updates"  id="anchorWorkex" onclick="workex()" >
         <div class="title">Work Experience</div>
