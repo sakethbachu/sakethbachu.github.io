@@ -187,13 +187,13 @@ a:visited {
         width: 1000px;
         margin: auto;
         margin-bottom: 2rem;
-        max-height: 100px; /* Set the maximum height for the scrollable container */
+        max-height: 200px; /* Set the maximum height for the scrollable container */
         overflow: auto; /* Enable vertical scrolling */
     }
 
-    .updates .events {
+/*     .updates .events {
     height: 100%; /* Set the height to 100% to ensure scrolling works */
-    }
+    } */
 
     .research{
         width: 1000px;
