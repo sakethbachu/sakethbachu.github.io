@@ -187,6 +187,8 @@ a:visited {
         width: 1000px;
         margin: auto;
         margin-bottom: 2rem;
+        max-height: 300px; /* Set the maximum height for the scrollable container */
+        overflow-y: auto; /* Enable vertical scrolling */
     }
 
     .research{
