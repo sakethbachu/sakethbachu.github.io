@@ -190,9 +190,9 @@ a:visited {
         overflow: auto; /* Enable vertical scrolling */
     }
 
-/*     .updates .events {
+    .updates .events {
     height: 100%; /* Set the height to 100% to ensure scrolling works */
-    } */
+    }
 
     .research{
         width: 1000px;
