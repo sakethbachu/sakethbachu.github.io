@@ -188,6 +188,7 @@ a:visited {
         margin-bottom: 2rem;
         max-height: 200px; /* Set the maximum height for the scrollable container */
         overflow: auto; /* Enable vertical scrolling */
+        scroll-behavior: smooth;
     }
 
     .updates .events {
