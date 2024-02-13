@@ -73,7 +73,6 @@ a:visited {
     font-size: 30px;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid black;
-    position: sticky;
 }
 
 .title:hover{
