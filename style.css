@@ -192,6 +192,11 @@ a:visited {
         position: relative;
     }
 
+   .content-container {
+      overflow-y: auto;
+      max-height: 100%; /* Adjust the maximum height as needed */
+    }
+
     .updates .events {
     height: 100%; /* Set the height to 100% to ensure scrolling works */
     }
