@@ -18,6 +18,7 @@ a:visited {
     margin: auto;
     padding-top: 1rem ;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .intro{
@@ -30,6 +31,8 @@ a:visited {
     padding: 1rem 0.5rem;
     width: fit-content;
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .vline{
@@ -67,6 +70,13 @@ a:visited {
 
 .updates{
     margin-bottom: 2rem ;
+    }
+
+    #updatesID {
+        display: block;
+        height: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
 .title{
@@ -111,6 +121,12 @@ a:visited {
     margin-bottom: 1rem;
 }
 
+#workexID {
+    display: block;
+    height: 200px;
+    overflow: scroll;
+}
+
 .gif{
     padding: 0.5rem 1rem;
     display: flex;
@@ -144,9 +160,10 @@ a:visited {
 
 .logos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 90%;
+    width: 70%;
     margin: auto;
     
 }
@@ -186,20 +203,25 @@ a:visited {
         width: 1000px;
         margin: auto;
         margin-bottom: 2rem;
-        max-height: 200px; /* Set the maximum height for the scrollable container */
-        overflow: auto; /* Enable vertical scrolling */
-        scroll-behavior: smooth;
-        position: relative;
+        
     }
 
-   .content-container {
-      overflow-y: auto;
-      max-height: 100%; /* Adjust the maximum height as needed */
+    #updatesID {
+        display: block;
+        height: 200px;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
-    .updates .events {
-    height: 100%; /* Set the height to 100% to ensure scrolling works */
+    #workexID {
+        display: block;
+        height: 200px;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
+   
+
+    
 
     .research{
         width: 1000px;
@@ -225,5 +247,14 @@ a:visited {
 
     .logos{
         flex-wrap: wrap;
+        
+    }
+
+    
+}
+
+@media(max-width : 400px){
+    .sections{
+        font-size: 12px;
     }
 }
